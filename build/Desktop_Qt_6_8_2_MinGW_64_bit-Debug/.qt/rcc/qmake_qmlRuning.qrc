@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/qmlRuning">
+    <file alias="qmldir">E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/qmlRuning/qmldir</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,13 @@
+--bare
+-I
+E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug
+-I
+C:/Qt/6.8.2/mingw_64/qml
+--resource
+E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.qt/rcc/qmake_qmlRuning.qrc
+--resource
+E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.qt/rcc/appqmlRuning_raw_qml_0.qrc
+E:/project/qmlRuning/Main.qml
+E:/project/qmlRuning/ClassType.qml
+--json
+E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/appqmlRuning_qmllint.json

@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/qt/qml/qmlRuning/">
+    <file alias="Main.qml">E:/project/qmlRuning/Main.qml</file>
+    <file alias="ClassType.qml">E:/project/qmlRuning/ClassType.qml</file>
+  </qresource>
+</RCC>
+

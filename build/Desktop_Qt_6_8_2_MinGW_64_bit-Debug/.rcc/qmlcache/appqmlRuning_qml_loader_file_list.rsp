@@ -1,0 +1,6 @@
+--resource
+E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.qt/rcc/qmake_qmlRuning.qrc
+--resource
+E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.qt/rcc/appqmlRuning_raw_qml_0.qrc
+/qt/qml/qmlRuning/Main.qml
+/qt/qml/qmlRuning/ClassType.qml
