@@ -2,6 +2,7 @@
   <qresource prefix="/qt/qml/qmlRuning/">
     <file alias="Main.qml">E:/project/qmlRuning/Main.qml</file>
     <file alias="ClassType.qml">E:/project/qmlRuning/ClassType.qml</file>
+    <file alias="PBCode.qml">E:/project/qmlRuning/PBCode.qml</file>
   </qresource>
 </RCC>
 

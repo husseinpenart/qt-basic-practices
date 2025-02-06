@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-611d6f4e9767739deae3.json",
+					"jsonFile" : "directory-.-Debug-4e4f89b50eb5836fc732.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -70,7 +70,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-all_aotstats-Debug-bc0c8d7eec70ce6d01ca.json",
+					"jsonFile" : "target-all_aotstats-Debug-a022d926c558de96fc57.json",
 					"name" : "all_aotstats",
 					"projectIndex" : 0
 				},
@@ -105,7 +105,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "appqmlRuning::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appqmlRuning-Debug-efd4ca2fafa35710fa5f.json",
+					"jsonFile" : "target-appqmlRuning-Debug-7d7a0f396a153a251c50.json",
 					"name" : "appqmlRuning",
 					"projectIndex" : 0
 				},
@@ -119,7 +119,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "appqmlRuning_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-appqmlRuning_autogen_timestamp_deps-Debug-3f7b74dded1b75a0a71d.json",
+					"jsonFile" : "target-appqmlRuning_autogen_timestamp_deps-Debug-356efdff285461fcaa6a.json",
 					"name" : "appqmlRuning_autogen_timestamp_deps",
 					"projectIndex" : 0
 				},
@@ -175,7 +175,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "module_appqmlRuning_aotstats_target::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-module_appqmlRuning_aotstats_target-Debug-273286cfb972bb9726e4.json",
+					"jsonFile" : "target-module_appqmlRuning_aotstats_target-Debug-89d206696fe68fb6116d.json",
 					"name" : "module_appqmlRuning_aotstats_target",
 					"projectIndex" : 0
 				}

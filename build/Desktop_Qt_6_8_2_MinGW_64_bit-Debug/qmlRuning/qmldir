@@ -3,4 +3,5 @@ typeinfo appqmlRuning.qmltypes
 prefer :/qt/qml/qmlRuning/
 Main 1.0 Main.qml
 ClassType 1.0 ClassType.qml
+PBCode 1.0 PBCode.qml
 

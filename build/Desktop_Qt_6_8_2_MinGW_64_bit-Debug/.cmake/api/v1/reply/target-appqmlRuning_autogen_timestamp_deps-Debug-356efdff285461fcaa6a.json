@@ -67,12 +67,12 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "appqmlRuning_qmlimportscan::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 5,
 			"id" : "appqmlRuning_copy_qml::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "appqmlRuning_qmlimportscan::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 7,

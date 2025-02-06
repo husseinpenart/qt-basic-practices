@@ -19,6 +19,13 @@ namespace _qt_qml_qmlRuning_ClassType_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _qt_qml_qmlRuning_PBCode_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 
 }
 namespace {
@@ -35,6 +42,7 @@ Q_GLOBAL_STATIC(Registry, unitRegistry)
 Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/qmlRuning/Main.qml"), &QmlCacheGeneratedCode::_qt_qml_qmlRuning_Main_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/qmlRuning/ClassType.qml"), &QmlCacheGeneratedCode::_qt_qml_qmlRuning_ClassType_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/qmlRuning/PBCode.qml"), &QmlCacheGeneratedCode::_qt_qml_qmlRuning_PBCode_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;
