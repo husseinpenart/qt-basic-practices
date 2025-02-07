@@ -47,7 +47,7 @@ cmake_ninja_workdir = E$:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-
 #############################################
 # Order-only phony target for appqmlRuning
 
-build cmake_object_order_depends_target_appqmlRuning: phony || .qt/rcc/qrc_appqmlRuning_raw_qml_0.cpp .qt/rcc/qrc_qmake_qmlRuning.cpp .rcc/qmlcache/appqmlRuning_ClassType_qml.cpp .rcc/qmlcache/appqmlRuning_ClassType_qml.cpp.aotstats .rcc/qmlcache/appqmlRuning_Main_qml.cpp .rcc/qmlcache/appqmlRuning_Main_qml.cpp.aotstats .rcc/qmlcache/appqmlRuning_PBCode_qml.cpp .rcc/qmlcache/appqmlRuning_PBCode_qml.cpp.aotstats .rcc/qmlcache/appqmlRuning_qmlcache_loader.cpp appqmlRuning_autogen appqmlRuning_autogen/mocs_compilation.cpp appqmlRuning_autogen/timestamp appqmlRuning_autogen_timestamp_deps appqmlRuning_copy_qml appqmlRuning_copy_res appqmlRuning_qmlimportscan appqmlruning_qmltyperegistrations.cpp meta_types/appqmlRuning_json_file_list.txt meta_types/appqmlRuning_json_file_list.txt.timestamp meta_types/qt6appqmlruning_debug_metatypes.json meta_types/qt6appqmlruning_debug_metatypes.json.gen qmlRuning/appqmlRuning.qmltypes
+build cmake_object_order_depends_target_appqmlRuning: phony || .qt/rcc/qrc_appqmlRuning_raw_qml_0.cpp .qt/rcc/qrc_qmake_qmlRuning.cpp .rcc/qmlcache/appqmlRuning_ClassType_qml.cpp .rcc/qmlcache/appqmlRuning_ClassType_qml.cpp.aotstats .rcc/qmlcache/appqmlRuning_Main_qml.cpp .rcc/qmlcache/appqmlRuning_Main_qml.cpp.aotstats .rcc/qmlcache/appqmlRuning_PBCode_qml.cpp .rcc/qmlcache/appqmlRuning_PBCode_qml.cpp.aotstats .rcc/qmlcache/appqmlRuning_QtGlobal_qml.cpp .rcc/qmlcache/appqmlRuning_QtGlobal_qml.cpp.aotstats .rcc/qmlcache/appqmlRuning_qmlcache_loader.cpp appqmlRuning_autogen appqmlRuning_autogen/mocs_compilation.cpp appqmlRuning_autogen/timestamp appqmlRuning_autogen_timestamp_deps appqmlRuning_copy_qml appqmlRuning_copy_res appqmlRuning_qmlimportscan appqmlruning_qmltyperegistrations.cpp meta_types/appqmlRuning_json_file_list.txt meta_types/appqmlRuning_json_file_list.txt.timestamp meta_types/qt6appqmlruning_debug_metatypes.json meta_types/qt6appqmlruning_debug_metatypes.json.gen qmlRuning/appqmlRuning.qmltypes
 
 build CMakeFiles/appqmlRuning.dir/appqmlRuning_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__appqmlRuning_unscanned_Debug E$:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/appqmlRuning_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_appqmlRuning
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
@@ -113,6 +113,14 @@ build CMakeFiles/appqmlRuning.dir/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc
   OBJECT_DIR = CMakeFiles\appqmlRuning.dir
   OBJECT_FILE_DIR = CMakeFiles\appqmlRuning.dir\build\Desktop_Qt_6_8_2_MinGW_64_bit-Debug\.rcc\qmlcache
 
+build CMakeFiles/appqmlRuning.dir/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqmlRuning_QtGlobal_qml.cpp.obj: CXX_COMPILER__appqmlRuning_unscanned_Debug E$:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqmlRuning_QtGlobal_qml.cpp || cmake_object_order_depends_target_appqmlRuning
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\appqmlRuning.dir\build\Desktop_Qt_6_8_2_MinGW_64_bit-Debug\.rcc\qmlcache\appqmlRuning_QtGlobal_qml.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always
+  INCLUDES = -IE:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/appqmlRuning_autogen/include -IE:/project/qmlRuning -isystem C:/Qt/6.8.2/mingw_64/include/QtQml/6.8.2 -isystem C:/Qt/6.8.2/mingw_64/include/QtQml/6.8.2/QtQml -isystem C:/Qt/6.8.2/mingw_64/include/QtCore/6.8.2 -isystem C:/Qt/6.8.2/mingw_64/include/QtCore/6.8.2/QtCore -isystem C:/Qt/6.8.2/mingw_64/include/QtCore -isystem C:/Qt/6.8.2/mingw_64/include -isystem C:/Qt/6.8.2/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.8.2/mingw_64/include/QtQml -isystem C:/Qt/6.8.2/mingw_64/include/QtQmlIntegration -isystem C:/Qt/6.8.2/mingw_64/include/QtNetwork -isystem C:/Qt/6.8.2/mingw_64/include/QtQuick -isystem C:/Qt/6.8.2/mingw_64/include/QtGui -isystem C:/Qt/6.8.2/mingw_64/include/QtQmlMeta -isystem C:/Qt/6.8.2/mingw_64/include/QtQmlModels -isystem C:/Qt/6.8.2/mingw_64/include/QtQmlWorkerScript -isystem C:/Qt/6.8.2/mingw_64/include/QtOpenGL
+  OBJECT_DIR = CMakeFiles\appqmlRuning.dir
+  OBJECT_FILE_DIR = CMakeFiles\appqmlRuning.dir\build\Desktop_Qt_6_8_2_MinGW_64_bit-Debug\.rcc\qmlcache
+
 build CMakeFiles/appqmlRuning.dir/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.qt/rcc/qrc_appqmlRuning_raw_qml_0.cpp.obj: CXX_COMPILER__appqmlRuning_unscanned_Debug E$:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.qt/rcc/qrc_appqmlRuning_raw_qml_0.cpp || cmake_object_order_depends_target_appqmlRuning
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMETA_LIB -DQT_QMLMODELS_LIB -DQT_QMLWORKERSCRIPT_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\appqmlRuning.dir\build\Desktop_Qt_6_8_2_MinGW_64_bit-Debug\.qt\rcc\qrc_appqmlRuning_raw_qml_0.cpp.obj.d
@@ -129,7 +137,7 @@ build CMakeFiles/appqmlRuning.dir/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.qt/
 #############################################
 # Link the executable appqmlRuning.exe
 
-build appqmlRuning.exe: CXX_EXECUTABLE_LINKER__appqmlRuning_Debug CMakeFiles/appqmlRuning.dir/appqmlRuning_autogen/mocs_compilation.cpp.obj CMakeFiles/appqmlRuning.dir/main.cpp.obj CMakeFiles/appqmlRuning.dir/appqmlruning_qmltyperegistrations.cpp.obj CMakeFiles/appqmlRuning.dir/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_qmlRuning.cpp.obj CMakeFiles/appqmlRuning.dir/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqmlRuning_qmlcache_loader.cpp.obj CMakeFiles/appqmlRuning.dir/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqmlRuning_Main_qml.cpp.obj CMakeFiles/appqmlRuning.dir/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqmlRuning_ClassType_qml.cpp.obj CMakeFiles/appqmlRuning.dir/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqmlRuning_PBCode_qml.cpp.obj CMakeFiles/appqmlRuning.dir/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.qt/rcc/qrc_appqmlRuning_raw_qml_0.cpp.obj | C$:/Qt/6.8.2/mingw_64/lib/libQt6Quick.a C$:/Qt/6.8.2/mingw_64/lib/libQt6QmlMeta.a C$:/Qt/6.8.2/mingw_64/lib/libQt6QmlWorkerScript.a C$:/Qt/6.8.2/mingw_64/lib/libQt6QmlModels.a C$:/Qt/6.8.2/mingw_64/lib/libQt6Qml.a C$:/Qt/6.8.2/mingw_64/lib/libQt6Network.a C$:/Qt/6.8.2/mingw_64/lib/libQt6OpenGL.a C$:/Qt/6.8.2/mingw_64/lib/libQt6Gui.a C$:/Qt/6.8.2/mingw_64/lib/libQt6Core.a C$:/Qt/6.8.2/mingw_64/lib/libQt6EntryPoint.a || appqmlRuning_autogen appqmlRuning_autogen_timestamp_deps appqmlRuning_copy_qml appqmlRuning_copy_res appqmlRuning_qmlimportscan
+build appqmlRuning.exe: CXX_EXECUTABLE_LINKER__appqmlRuning_Debug CMakeFiles/appqmlRuning.dir/appqmlRuning_autogen/mocs_compilation.cpp.obj CMakeFiles/appqmlRuning.dir/main.cpp.obj CMakeFiles/appqmlRuning.dir/appqmlruning_qmltyperegistrations.cpp.obj CMakeFiles/appqmlRuning.dir/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_qmlRuning.cpp.obj CMakeFiles/appqmlRuning.dir/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqmlRuning_qmlcache_loader.cpp.obj CMakeFiles/appqmlRuning.dir/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqmlRuning_Main_qml.cpp.obj CMakeFiles/appqmlRuning.dir/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqmlRuning_ClassType_qml.cpp.obj CMakeFiles/appqmlRuning.dir/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqmlRuning_PBCode_qml.cpp.obj CMakeFiles/appqmlRuning.dir/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqmlRuning_QtGlobal_qml.cpp.obj CMakeFiles/appqmlRuning.dir/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.qt/rcc/qrc_appqmlRuning_raw_qml_0.cpp.obj | C$:/Qt/6.8.2/mingw_64/lib/libQt6Quick.a C$:/Qt/6.8.2/mingw_64/lib/libQt6QmlMeta.a C$:/Qt/6.8.2/mingw_64/lib/libQt6QmlWorkerScript.a C$:/Qt/6.8.2/mingw_64/lib/libQt6QmlModels.a C$:/Qt/6.8.2/mingw_64/lib/libQt6Qml.a C$:/Qt/6.8.2/mingw_64/lib/libQt6Network.a C$:/Qt/6.8.2/mingw_64/lib/libQt6OpenGL.a C$:/Qt/6.8.2/mingw_64/lib/libQt6Gui.a C$:/Qt/6.8.2/mingw_64/lib/libQt6Core.a C$:/Qt/6.8.2/mingw_64/lib/libQt6EntryPoint.a || appqmlRuning_autogen appqmlRuning_autogen_timestamp_deps appqmlRuning_copy_qml appqmlRuning_copy_res appqmlRuning_qmlimportscan
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = C:/Qt/6.8.2/mingw_64/lib/libQt6Quick.a  C:/Qt/6.8.2/mingw_64/lib/libQt6QmlMeta.a  C:/Qt/6.8.2/mingw_64/lib/libQt6QmlWorkerScript.a  C:/Qt/6.8.2/mingw_64/lib/libQt6QmlModels.a  C:/Qt/6.8.2/mingw_64/lib/libQt6Qml.a  C:/Qt/6.8.2/mingw_64/lib/libQt6Network.a  -lws2_32  C:/Qt/6.8.2/mingw_64/lib/libQt6OpenGL.a  C:/Qt/6.8.2/mingw_64/lib/libQt6Gui.a  C:/Qt/6.8.2/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Qt/6.8.2/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -luser32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -204,13 +212,13 @@ build appqmlRuning_copy_res: phony CMakeFiles/appqmlRuning_copy_res .qt/appqmlRu
 #############################################
 # Utility command for module_appqmlRuning_aotstats_target
 
-build module_appqmlRuning_aotstats_target: phony CMakeFiles/module_appqmlRuning_aotstats_target .rcc/qmlcache/module_appqmlRuning.aotstats .rcc/qmlcache/appqmlRuning_ClassType_qml.cpp .rcc/qmlcache/appqmlRuning_ClassType_qml.cpp.aotstats .rcc/qmlcache/appqmlRuning_Main_qml.cpp .rcc/qmlcache/appqmlRuning_Main_qml.cpp.aotstats .rcc/qmlcache/appqmlRuning_PBCode_qml.cpp .rcc/qmlcache/appqmlRuning_PBCode_qml.cpp.aotstats appqmlruning_qmltyperegistrations.cpp qmlRuning/appqmlRuning.qmltypes appqmlRuning_qmltyperegistration
+build module_appqmlRuning_aotstats_target: phony CMakeFiles/module_appqmlRuning_aotstats_target .rcc/qmlcache/module_appqmlRuning.aotstats .rcc/qmlcache/appqmlRuning_ClassType_qml.cpp .rcc/qmlcache/appqmlRuning_ClassType_qml.cpp.aotstats .rcc/qmlcache/appqmlRuning_Main_qml.cpp .rcc/qmlcache/appqmlRuning_Main_qml.cpp.aotstats .rcc/qmlcache/appqmlRuning_PBCode_qml.cpp .rcc/qmlcache/appqmlRuning_PBCode_qml.cpp.aotstats .rcc/qmlcache/appqmlRuning_QtGlobal_qml.cpp .rcc/qmlcache/appqmlRuning_QtGlobal_qml.cpp.aotstats appqmlruning_qmltyperegistrations.cpp qmlRuning/appqmlRuning.qmltypes appqmlRuning_qmltyperegistration
 
 
 #############################################
 # Utility command for all_aotstats
 
-build all_aotstats: phony CMakeFiles/all_aotstats .rcc/qmlcache/all_aotstats.aotstats .rcc/qmlcache/all_aotstats.txt .rcc/qmlcache/module_appqmlRuning.aotstats .rcc/qmlcache/appqmlRuning_ClassType_qml.cpp .rcc/qmlcache/appqmlRuning_ClassType_qml.cpp.aotstats .rcc/qmlcache/appqmlRuning_Main_qml.cpp .rcc/qmlcache/appqmlRuning_Main_qml.cpp.aotstats .rcc/qmlcache/appqmlRuning_PBCode_qml.cpp .rcc/qmlcache/appqmlRuning_PBCode_qml.cpp.aotstats appqmlruning_qmltyperegistrations.cpp qmlRuning/appqmlRuning.qmltypes module_appqmlRuning_aotstats_target
+build all_aotstats: phony CMakeFiles/all_aotstats .rcc/qmlcache/all_aotstats.aotstats .rcc/qmlcache/all_aotstats.txt .rcc/qmlcache/module_appqmlRuning.aotstats .rcc/qmlcache/appqmlRuning_ClassType_qml.cpp .rcc/qmlcache/appqmlRuning_ClassType_qml.cpp.aotstats .rcc/qmlcache/appqmlRuning_Main_qml.cpp .rcc/qmlcache/appqmlRuning_Main_qml.cpp.aotstats .rcc/qmlcache/appqmlRuning_PBCode_qml.cpp .rcc/qmlcache/appqmlRuning_PBCode_qml.cpp.aotstats .rcc/qmlcache/appqmlRuning_QtGlobal_qml.cpp .rcc/qmlcache/appqmlRuning_QtGlobal_qml.cpp.aotstats appqmlruning_qmltyperegistrations.cpp qmlRuning/appqmlRuning.qmltypes module_appqmlRuning_aotstats_target
 
 
 #############################################
@@ -361,9 +369,18 @@ build .rcc/qmlcache/appqmlRuning_PBCode_qml.cpp .rcc/qmlcache/appqmlRuning_PBCod
 
 
 #############################################
+# Custom command for .rcc\qmlcache\appqmlRuning_QtGlobal_qml.cpp
+
+build .rcc/qmlcache/appqmlRuning_QtGlobal_qml.cpp .rcc/qmlcache/appqmlRuning_QtGlobal_qml.cpp.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/appqmlRuning_QtGlobal_qml.cpp ${cmake_ninja_workdir}.rcc/qmlcache/appqmlRuning_QtGlobal_qml.cpp.aotstats: CUSTOM_COMMAND C$:/Qt/6.8.2/mingw_64/bin/qmlcachegen.exe E$:/project/qmlRuning/QtGlobal.qml .qt/rcc/qmake_qmlRuning.qrc .qt/rcc/appqmlRuning_raw_qml_0.qrc qmlRuning/appqmlRuning.qmltypes qmlRuning/qmldir
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D E:\project\qmlRuning\build\Desktop_Qt_6_8_2_MinGW_64_bit-Debug && "C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache && E:\project\qmlRuning\build\Desktop_Qt_6_8_2_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.8.2/mingw_64/bin/qmlcachegen.exe --bare --resource-path /qt/qml/qmlRuning/QtGlobal.qml -I E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug -I C:/Qt/6.8.2/mingw_64/qml -i E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/qmlRuning/qmldir --resource E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.qt/rcc/qmake_qmlRuning.qrc --resource E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.qt/rcc/appqmlRuning_raw_qml_0.qrc --dump-aot-stats --module-id=qmlRuning(appqmlRuning) -o E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqmlRuning_QtGlobal_qml.cpp E:/project/qmlRuning/QtGlobal.qml"
+  DESC = Generating .rcc/qmlcache/appqmlRuning_QtGlobal_qml.cpp, .rcc/qmlcache/appqmlRuning_QtGlobal_qml.cpp.aotstats
+  restat = 1
+
+
+#############################################
 # Custom command for .qt\rcc\qrc_appqmlRuning_raw_qml_0.cpp
 
-build .qt/rcc/qrc_appqmlRuning_raw_qml_0.cpp | ${cmake_ninja_workdir}.qt/rcc/qrc_appqmlRuning_raw_qml_0.cpp: CUSTOM_COMMAND E$:/project/qmlRuning/Main.qml E$:/project/qmlRuning/ClassType.qml E$:/project/qmlRuning/PBCode.qml .qt/rcc/appqmlRuning_raw_qml_0.qrc C$:/Qt/6.8.2/mingw_64/bin/rcc.exe || appqmlRuning_autogen appqmlRuning_autogen_timestamp_deps appqmlRuning_copy_qml appqmlRuning_copy_res appqmlRuning_qmlimportscan
+build .qt/rcc/qrc_appqmlRuning_raw_qml_0.cpp | ${cmake_ninja_workdir}.qt/rcc/qrc_appqmlRuning_raw_qml_0.cpp: CUSTOM_COMMAND E$:/project/qmlRuning/Main.qml E$:/project/qmlRuning/ClassType.qml E$:/project/qmlRuning/PBCode.qml E$:/project/qmlRuning/QtGlobal.qml .qt/rcc/appqmlRuning_raw_qml_0.qrc C$:/Qt/6.8.2/mingw_64/bin/rcc.exe || appqmlRuning_autogen appqmlRuning_autogen_timestamp_deps appqmlRuning_copy_qml appqmlRuning_copy_res appqmlRuning_qmlimportscan
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D E:\project\qmlRuning\build\Desktop_Qt_6_8_2_MinGW_64_bit-Debug && C:\Qt\6.8.2\mingw_64\bin\rcc.exe --output E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.qt/rcc/qrc_appqmlRuning_raw_qml_0.cpp --name appqmlRuning_raw_qml_0 E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.qt/rcc/appqmlRuning_raw_qml_0.qrc --no-zstd"
   DESC = Running rcc for resource appqmlRuning_raw_qml_0
   restat = 1
@@ -398,21 +415,21 @@ build CMakeFiles/appqmlRuning_qmltyperegistration | ${cmake_ninja_workdir}CMakeF
 #############################################
 # Custom command for CMakeFiles\appqmlRuning_qmllint
 
-build CMakeFiles/appqmlRuning_qmllint | ${cmake_ninja_workdir}CMakeFiles/appqmlRuning_qmllint: CUSTOM_COMMAND C$:/Qt/6.8.2/mingw_64/bin/qmllint.exe E$:/project/qmlRuning/Main.qml E$:/project/qmlRuning/ClassType.qml E$:/project/qmlRuning/PBCode.qml .rcc/qmllint/appqmlRuning.rsp || all_qmltyperegistrations appqmlRuning_qmltyperegistration
+build CMakeFiles/appqmlRuning_qmllint | ${cmake_ninja_workdir}CMakeFiles/appqmlRuning_qmllint: CUSTOM_COMMAND C$:/Qt/6.8.2/mingw_64/bin/qmllint.exe E$:/project/qmlRuning/Main.qml E$:/project/qmlRuning/ClassType.qml E$:/project/qmlRuning/PBCode.qml E$:/project/qmlRuning/QtGlobal.qml .rcc/qmllint/appqmlRuning.rsp || all_qmltyperegistrations appqmlRuning_qmltyperegistration
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D E:\project\qmlRuning && E:\project\qmlRuning\build\Desktop_Qt_6_8_2_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.8.2/mingw_64/bin/qmllint.exe @E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmllint/appqmlRuning.rsp"
 
 
 #############################################
 # Custom command for CMakeFiles\appqmlRuning_qmllint_json
 
-build CMakeFiles/appqmlRuning_qmllint_json | ${cmake_ninja_workdir}CMakeFiles/appqmlRuning_qmllint_json: CUSTOM_COMMAND C$:/Qt/6.8.2/mingw_64/bin/qmllint.exe E$:/project/qmlRuning/Main.qml E$:/project/qmlRuning/ClassType.qml E$:/project/qmlRuning/PBCode.qml .rcc/qmllint/appqmlRuning_json.rsp || all_qmltyperegistrations appqmlRuning_qmltyperegistration
+build CMakeFiles/appqmlRuning_qmllint_json | ${cmake_ninja_workdir}CMakeFiles/appqmlRuning_qmllint_json: CUSTOM_COMMAND C$:/Qt/6.8.2/mingw_64/bin/qmllint.exe E$:/project/qmlRuning/Main.qml E$:/project/qmlRuning/ClassType.qml E$:/project/qmlRuning/PBCode.qml E$:/project/qmlRuning/QtGlobal.qml .rcc/qmllint/appqmlRuning_json.rsp || all_qmltyperegistrations appqmlRuning_qmltyperegistration
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D E:\project\qmlRuning && E:\project\qmlRuning\build\Desktop_Qt_6_8_2_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.8.2/mingw_64/bin/qmllint.exe @E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmllint/appqmlRuning_json.rsp"
 
 
 #############################################
 # Custom command for CMakeFiles\appqmlRuning_qmllint_module
 
-build CMakeFiles/appqmlRuning_qmllint_module | ${cmake_ninja_workdir}CMakeFiles/appqmlRuning_qmllint_module: CUSTOM_COMMAND C$:/Qt/6.8.2/mingw_64/bin/qmllint.exe E$:/project/qmlRuning/Main.qml E$:/project/qmlRuning/ClassType.qml E$:/project/qmlRuning/PBCode.qml .rcc/qmllint/appqmlRuning_module.rsp || all_qmltyperegistrations appqmlRuning_qmltyperegistration
+build CMakeFiles/appqmlRuning_qmllint_module | ${cmake_ninja_workdir}CMakeFiles/appqmlRuning_qmllint_module: CUSTOM_COMMAND C$:/Qt/6.8.2/mingw_64/bin/qmllint.exe E$:/project/qmlRuning/Main.qml E$:/project/qmlRuning/ClassType.qml E$:/project/qmlRuning/PBCode.qml E$:/project/qmlRuning/QtGlobal.qml .rcc/qmllint/appqmlRuning_module.rsp || all_qmltyperegistrations appqmlRuning_qmltyperegistration
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D E:\project\qmlRuning && E:\project\qmlRuning\build\Desktop_Qt_6_8_2_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.8.2/mingw_64/bin/qmllint.exe @E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmllint/appqmlRuning_module.rsp"
 
 
@@ -425,7 +442,7 @@ build CMakeFiles/appqmlRuning_copy_qml | ${cmake_ninja_workdir}CMakeFiles/appqml
 #############################################
 # Custom command for .qt\appqmlRuning_qml.txt
 
-build .qt/appqmlRuning_qml.txt | ${cmake_ninja_workdir}.qt/appqmlRuning_qml.txt: CUSTOM_COMMAND C$:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake E$:/project/qmlRuning/Main.qml E$:/project/qmlRuning/ClassType.qml E$:/project/qmlRuning/PBCode.qml
+build .qt/appqmlRuning_qml.txt | ${cmake_ninja_workdir}.qt/appqmlRuning_qml.txt: CUSTOM_COMMAND C$:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake E$:/project/qmlRuning/Main.qml E$:/project/qmlRuning/ClassType.qml E$:/project/qmlRuning/PBCode.qml E$:/project/qmlRuning/QtGlobal.qml
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D E:\project\qmlRuning\build\Desktop_Qt_6_8_2_MinGW_64_bit-Debug && "C:\Program Files\CMake\bin\cmake.exe" -DFILES_INFO_PATH=E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.qt/appqmlRuning_qml.cmake -P C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake"
   DESC = Copying appqmlRuning qml sources into build dir
   restat = 1
@@ -455,7 +472,7 @@ build CMakeFiles/module_appqmlRuning_aotstats_target | ${cmake_ninja_workdir}CMa
 #############################################
 # Custom command for .rcc\qmlcache\module_appqmlRuning.aotstats
 
-build .rcc/qmlcache/module_appqmlRuning.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/module_appqmlRuning.aotstats: CUSTOM_COMMAND .rcc/qmlcache/appqmlRuning_Main_qml.cpp.aotstats .rcc/qmlcache/appqmlRuning_ClassType_qml.cpp.aotstats .rcc/qmlcache/appqmlRuning_PBCode_qml.cpp.aotstats .rcc/qmlcache/module_appqmlRuning.aotstatslist || appqmlRuning_qmltyperegistration
+build .rcc/qmlcache/module_appqmlRuning.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/module_appqmlRuning.aotstats: CUSTOM_COMMAND .rcc/qmlcache/appqmlRuning_Main_qml.cpp.aotstats .rcc/qmlcache/appqmlRuning_ClassType_qml.cpp.aotstats .rcc/qmlcache/appqmlRuning_PBCode_qml.cpp.aotstats .rcc/qmlcache/appqmlRuning_QtGlobal_qml.cpp.aotstats .rcc/qmlcache/module_appqmlRuning.aotstatslist || appqmlRuning_qmltyperegistration
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D E:\project\qmlRuning\build\Desktop_Qt_6_8_2_MinGW_64_bit-Debug && E:\project\qmlRuning\build\Desktop_Qt_6_8_2_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.8.2/mingw_64/bin/qmlaotstats.exe aggregate E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/module_appqmlRuning.aotstatslist E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/module_appqmlRuning.aotstats"
   DESC = Generating .rcc/qmlcache/module_appqmlRuning.aotstats
   restat = 1
@@ -486,7 +503,7 @@ build CMakeFiles/appqmlRuning_qmlimportscan | ${cmake_ninja_workdir}CMakeFiles/a
 #############################################
 # Custom command for .qt\qml_imports\appqmlRuning_build.cmake
 
-build .qt/qml_imports/appqmlRuning_build.cmake | ${cmake_ninja_workdir}.qt/qml_imports/appqmlRuning_build.cmake: CUSTOM_COMMAND C$:/Qt/6.8.2/mingw_64/bin/qmlimportscanner.exe .qt/rcc/qmake_qmlRuning.qrc .qt/rcc/appqmlRuning_raw_qml_0.qrc E$:/project/qmlRuning/Main.qml E$:/project/qmlRuning/ClassType.qml E$:/project/qmlRuning/PBCode.qml
+build .qt/qml_imports/appqmlRuning_build.cmake | ${cmake_ninja_workdir}.qt/qml_imports/appqmlRuning_build.cmake: CUSTOM_COMMAND C$:/Qt/6.8.2/mingw_64/bin/qmlimportscanner.exe .qt/rcc/qmake_qmlRuning.qrc .qt/rcc/appqmlRuning_raw_qml_0.qrc E$:/project/qmlRuning/Main.qml E$:/project/qmlRuning/ClassType.qml E$:/project/qmlRuning/PBCode.qml E$:/project/qmlRuning/QtGlobal.qml
   COMMAND = C:\Windows\system32\cmd.exe /C "cd /D E:\project\qmlRuning && E:\project\qmlRuning\build\Desktop_Qt_6_8_2_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.8.2/mingw_64/bin/qmlimportscanner.exe @E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.qt/qml_imports/appqmlRuning_build.rsp"
   DESC = Running qmlimportscanner for appqmlRuning
   restat = 1

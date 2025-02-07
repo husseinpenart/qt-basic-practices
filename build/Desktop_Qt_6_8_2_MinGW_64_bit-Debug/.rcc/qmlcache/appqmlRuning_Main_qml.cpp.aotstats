@@ -5,35 +5,51 @@
                 "entries": [
                     {
                         "codegenSuccessfull": true,
-                        "column": 25,
-                        "durationMicroseconds": 292,
+                        "column": 20,
+                        "durationMicroseconds": 394,
                         "errorMessage": "",
-                        "functionName": "fonts",
-                        "line": 8
-                    },
-                    {
-                        "codegenSuccessfull": true,
-                        "column": 15,
-                        "durationMicroseconds": 169,
-                        "errorMessage": "",
-                        "functionName": "text",
+                        "functionName": "onNameChanged",
                         "line": 11
                     },
                     {
                         "codegenSuccessfull": true,
+                        "column": 20,
+                        "durationMicroseconds": 229,
+                        "errorMessage": "",
+                        "functionName": "onTitleChanged",
+                        "line": 15
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 26,
+                        "durationMicroseconds": 84,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 20
+                    },
+                    {
+                        "codegenSuccessfull": true,
                         "column": 24,
-                        "durationMicroseconds": 523,
+                        "durationMicroseconds": 254,
                         "errorMessage": "",
                         "functionName": "onClicked",
-                        "line": 30
+                        "line": 27
                     },
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 80,
+                        "durationMicroseconds": 70,
                         "errorMessage": "",
                         "functionName": "fill",
-                        "line": 29
+                        "line": 26
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 32,
+                        "durationMicroseconds": 68,
+                        "errorMessage": "Cannot access value for name name",
+                        "functionName": "onCompleted",
+                        "line": 33
                     }
                 ],
                 "filepath": "E:/project/qmlRuning/Main.qml"
