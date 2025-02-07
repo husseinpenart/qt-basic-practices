@@ -7,31 +7,64 @@ Window {
     visible: true
     title: qsTr("Practicing basic of qt")
 
-    property string name: "Hussein Asadi"
-    onNameChanged: {
-        console.log("this is my Name: "  ,  name)
-    }
-
-   onTitleChanged: {
-        console.log("new Title: "  ,  title)
-   }
-    Rectangle{
-        id:pressbutton
-        anchors.centerIn:parent
-        color:"greenyellow"
-        width: 100
-        height: 100
-
-        MouseArea{
+    Item{
+        id:containerItemId
+        x:50
+        y:50
+        width: 400
+        height: 200
+        Rectangle{
             anchors.fill: parent
-            onClicked: {
-                rootId.name = "Sara Mohammadi"
-                rootId.title = "this custome property handler"
+            color:'beige'
+            radius:10
+            ///group property
+            border{
+                color:"black"
+                width:2
+
             }
         }
+        Rectangle{
+           x:0
+           y:10
+           width: 50
+           height: 50
+           color:'red'
+           MouseArea{
+               anchors.fill: parent
+               onClicked: {
 
-        Component.onCompleted: {
-            console.log("Before page initial - name" , name)
+               }
+           }
+
+        }
+        Rectangle{
+           x:60
+           y:10
+           width: 50
+           height: 50
+           color:'green'
+           MouseArea{
+               anchors.fill: parent
+               onClicked: {
+
+               }
+           }
+
+        }
+        Rectangle{
+           x:120
+           y:10
+           width: 50
+           height: 50
+           color:'blue'
+           MouseArea{
+               anchors.fill: parent
+               onClicked: {
+
+               }
+           }
+
         }
     }
 }

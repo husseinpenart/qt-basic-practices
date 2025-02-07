@@ -10,6 +10,8 @@ set(src_and_dest_list
     "E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/qmlRuning/PBCode.qml"
     "E:/project/qmlRuning/QtGlobal.qml"
     "E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/qmlRuning/QtGlobal.qml"
+    "E:/project/qmlRuning/GroupProperties.qml"
+    "E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/qmlRuning/GroupProperties.qml"
 
 )
 set(timestamp_file "E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.qt/appqmlRuning_qml.txt")

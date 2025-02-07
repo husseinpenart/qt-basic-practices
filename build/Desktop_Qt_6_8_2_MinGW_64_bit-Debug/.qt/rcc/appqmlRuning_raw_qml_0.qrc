@@ -4,6 +4,7 @@
     <file alias="ClassType.qml">E:/project/qmlRuning/ClassType.qml</file>
     <file alias="PBCode.qml">E:/project/qmlRuning/PBCode.qml</file>
     <file alias="QtGlobal.qml">E:/project/qmlRuning/QtGlobal.qml</file>
+    <file alias="GroupProperties.qml">E:/project/qmlRuning/GroupProperties.qml</file>
   </qresource>
 </RCC>
 
