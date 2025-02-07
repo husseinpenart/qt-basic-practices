@@ -3,6 +3,70 @@
         "moduleFiles": [
             {
                 "entries": [
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 19,
+                        "durationMicroseconds": 319,
+                        "errorMessage": "",
+                        "functionName": "width",
+                        "line": 89
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 20,
+                        "durationMicroseconds": 167,
+                        "errorMessage": "",
+                        "functionName": "height",
+                        "line": 90
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 31,
+                        "durationMicroseconds": 299,
+                        "errorMessage": "",
+                        "functionName": "onTextChanged",
+                        "line": 101
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 34,
+                        "durationMicroseconds": 81,
+                        "errorMessage": "",
+                        "functionName": "centerIn",
+                        "line": 100
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 27,
+                        "durationMicroseconds": 140,
+                        "errorMessage": "",
+                        "functionName": "onClicked",
+                        "line": 108
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 30,
+                        "durationMicroseconds": 69,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 107
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 33,
+                        "durationMicroseconds": 178,
+                        "errorMessage": "",
+                        "functionName": "onButtonClicked",
+                        "line": 120
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 33,
+                        "durationMicroseconds": 215,
+                        "errorMessage": "",
+                        "functionName": "onButtonClicked",
+                        "line": 126
+                    }
                 ],
                 "filepath": "E:/project/qmlRuning/Main.qml"
             }

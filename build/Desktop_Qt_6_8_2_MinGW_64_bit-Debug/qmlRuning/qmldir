@@ -6,4 +6,5 @@ ClassType 1.0 ClassType.qml
 PBCode 1.0 PBCode.qml
 QtGlobal 1.0 QtGlobal.qml
 GroupProperties 1.0 GroupProperties.qml
+CButton 1.0 CButton.qml
 

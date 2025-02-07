@@ -1,52 +1,133 @@
 import QtQuick
 
 Window {
-    id:rootId
     width: 940
     height: 480
     visible: true
     title: qsTr("Practicing basic of qt")
+    // usage of component method 1
 
-    Item{
-        id:containerItemId
-        x:150
-        y:50
-        width: 600
-        height: 300
-        Image{
-            x:10
-            y:50
-            width: 100
-            height: 100
-            // loading from  working directory
-            source:"file:img.jpg"
-        }
+       /*
+       Row{
+           spacing: 20
+           Loader{
+               id: firstButton
+               sourceComponent: buttonComponent
 
-        Image{
-            x:150
-            y:50
-            width: 100
-            height: 100
-            // loading from resource file ( project directory)
-            source:"qrc:/images/cplus.jpg"
-        }
+               onLoaded: {
+                   var customButton = firstButton.item // Retrieve the loaded item
 
-        Image{
-            x:300
-            y:50
-            width: 100
-            height: 100
-            // loading from computer file ( your directory in you ms)
-            source:"file:///E:\QTQML.jpeg"
-        }
-        Image{
-            x:450
-            y:50
-            width: 100
-            height: 100
-            // loading from computer file ( your directory in you ms)
-            source:"https://doc.qt.io/QtForMCUs-2.9/images/qtul-automotive-sport-demo.png"
-        }
-    }
+                   //Access the loaded component's properties and signals
+                   customButton.buttonText = "Button1"
+                   customButton.buttonClicked.connect(function(){
+                       console.log("Clicked on Button1")
+                   })
+               }
+
+           }
+
+           Loader{
+               id: secondButton
+               sourceComponent: buttonComponent
+
+               onLoaded: {
+                   var customButton = secondButton.item // Retrieve the loaded item
+
+                   //Access the loaded component's properties and signals
+                   customButton.buttonText = "Button2"
+                   customButton.buttonClicked.connect(function(){
+                       console.log("Clicked on Button2")
+                   })
+               }
+
+           }
+       }
+
+
+       Component{
+           id: buttonComponent
+           Item{
+               id: rootId
+               property  alias buttonText: buttonTextId.text
+               width: containerRectId.width
+               height: containerRectId.height
+               signal buttonClicked
+
+
+               Rectangle{
+                   id: containerRectId
+                   width: buttonTextId.implicitWidth + 10
+                   height: buttonTextId.implicitHeight + 10
+                   color: "red"
+                   border{
+                       color: "blue"
+                       width: 3
+                   }
+
+                   Text{
+                       id: buttonTextId
+                       text: "Button"
+                       anchors.centerIn: parent
+                   }
+
+                   MouseArea{
+                       anchors.fill: parent
+                       onClicked: {
+                           rootId.buttonClicked()//Emit your signal
+                       }
+                   }
+               }
+           }
+       }
+      */
+
+    // usage of component method 2
+
+       component MButton: Rectangle{
+           id: mButtonId
+           property alias buttonText: buttonTextId.text
+           signal buttonClicked
+           width: buttonTextId.implicitWidth + 20
+           height: buttonTextId.implicitHeight + 20
+           color: "red"
+           border {
+               color: "blue"
+               width: 3
+           }
+
+           Text {
+               id: buttonTextId
+               text: "Button"
+               anchors.centerIn: parent
+               onTextChanged: {
+                   console.log("Text changed to " + buttonTextId.text);
+               }
+           }
+
+           MouseArea {
+               anchors.fill: parent
+               onClicked: {
+                   //console.log("Clicked on :"+ buttonTextId.text)
+                   mButtonId.buttonClicked();
+               }
+           }
+       }
+
+
+       Column {
+           spacing: 20
+           MButton {
+               buttonText: "Button3"
+               onButtonClicked: {
+                   console.log("Clicked on inlined component button3");
+               }
+           }
+           MButton {
+               buttonText: "Button4"
+               onButtonClicked: {
+                   console.log("clicked on inlined component button4");
+               }
+           }
+       }
 
 }
