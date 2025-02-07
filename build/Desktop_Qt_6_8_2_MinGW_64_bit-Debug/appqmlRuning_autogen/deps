@@ -522,4 +522,5 @@ appqmlRuning_autogen/timestamp: \
 	E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/CMakeFiles/3.31.5/CMakeRCCompiler.cmake \
 	E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/CMakeFiles/3.31.5/CMakeSystem.cmake \
 	E:/project/qmlRuning/main.cpp \
+	E:/project/qmlRuning/resource.qrc \
 	C:/Program\ Files/CMake/bin/cmake.exe
