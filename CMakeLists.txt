@@ -24,6 +24,8 @@ qt_add_qml_module(appqmlRuning
         RESOURCES resource.qrc
         QML_FILES images.qml
         QML_FILES CButton.qml
+        QML_FILES Notifier.qml
+        QML_FILES Receiver.qml
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.

@@ -14,5 +14,7 @@ E:/project/qmlRuning/QtGlobal.qml
 E:/project/qmlRuning/GroupProperties.qml
 E:/project/qmlRuning/images.qml
 E:/project/qmlRuning/CButton.qml
+E:/project/qmlRuning/Notifier.qml
+E:/project/qmlRuning/Receiver.qml
 --json
 E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/appqmlRuning_qmllint.json

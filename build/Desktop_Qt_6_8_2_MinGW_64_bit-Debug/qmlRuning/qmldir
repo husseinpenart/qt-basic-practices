@@ -7,4 +7,6 @@ PBCode 1.0 PBCode.qml
 QtGlobal 1.0 QtGlobal.qml
 GroupProperties 1.0 GroupProperties.qml
 CButton 1.0 CButton.qml
+Notifier 1.0 Notifier.qml
+Receiver 1.0 Receiver.qml
 

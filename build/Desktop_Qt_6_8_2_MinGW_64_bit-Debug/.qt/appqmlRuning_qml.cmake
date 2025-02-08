@@ -16,6 +16,10 @@ set(src_and_dest_list
     "E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/qmlRuning/images.qml"
     "E:/project/qmlRuning/CButton.qml"
     "E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/qmlRuning/CButton.qml"
+    "E:/project/qmlRuning/Notifier.qml"
+    "E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/qmlRuning/Notifier.qml"
+    "E:/project/qmlRuning/Receiver.qml"
+    "E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/qmlRuning/Receiver.qml"
 
 )
 set(timestamp_file "E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.qt/appqmlRuning_qml.txt")

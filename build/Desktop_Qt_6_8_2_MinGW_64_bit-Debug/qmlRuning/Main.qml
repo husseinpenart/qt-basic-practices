@@ -5,128 +5,65 @@ Window {
     height: 480
     visible: true
     title: qsTr("Practicing basic of qt")
-    // usage of component method 1
-    //Method1
-       /*
-       Row{
-           spacing: 20
-           Loader{
-               id: firstButton
-               sourceComponent: buttonComponent
-
-               onLoaded: {
-                   var customButton = firstButton.item // Retrieve the loaded item
-
-                   //Access the loaded component's properties and signals
-                   customButton.buttonText = "Button1"
-                   customButton.buttonClicked.connect(function(){
-                       console.log("Clicked on Button1")
-                   })
-               }
-
-           }
-
-           Loader{
-               id: secondButton
-               sourceComponent: buttonComponent
-
-               onLoaded: {
-                   var customButton = secondButton.item // Retrieve the loaded item
-
-                   //Access the loaded component's properties and signals
-                   customButton.buttonText = "Button2"
-                   customButton.buttonClicked.connect(function(){
-                       console.log("Clicked on Button2")
-                   })
-               }
-
-           }
-       }
 
 
-       Component{
-           id: buttonComponent
-           Item{
-               id: rootId
-               property  alias buttonText: buttonTextId.text
-               width: containerRectId.width
-               height: containerRectId.height
-               signal buttonClicked
+    Notifier{
+        id: notifierId
+        rectColor: "yellowgreen"
+        /*
+        onNotify: count => {
+           console.log("Received: " + count)
+        }
+        */
+        target: recieverId
+    }
 
 
-               Rectangle{
-                   id: containerRectId
-                   width: buttonTextId.implicitWidth + 10
-                   height: buttonTextId.implicitHeight + 10
-                   color: "red"
-                   border{
-                       color: "blue"
-                       width: 3
-                   }
+    Receiver{
+        id: recieverId
+        rectColor: "dodgerblue"
+        anchors.right: parent.right
 
-                   Text{
-                       id: buttonTextId
-                       text: "Button"
-                       anchors.centerIn: parent
-                   }
+    }
 
-                   MouseArea{
-                       anchors.fill: parent
-                       onClicked: {
-                           rootId.buttonClicked()//Emit your signal
-                       }
-                   }
-               }
-           }
-       }
-      */
+    //Make the connection from notifer to receiver
+    /*
+    Component.onCompleted: {
+        notifierId.notify.connect(recieverId.receiveInfo)
+    }
+    */
 
-       //Method2
-       component MButton: Rectangle{
-           id: mButtonId
-           property alias buttonText: buttonTextId.text
-           signal buttonClicked
-           width: buttonTextId.implicitWidth + 20
-           height: buttonTextId.implicitHeight + 20
-           color: "red"
-           border {
-               color: "blue"
-               width: 3
-           }
+    // Rectangle{
+    //     id: rectId
+    //     width: 300
+    //     height: 300
+    //     color: "dodgerblue"
 
-           Text {
-               id: buttonTextId
-               text: "Button"
-               anchors.centerIn: parent
-               onTextChanged: {
-                   console.log("Text changed to " + buttonTextId.text);
-               }
-           }
-
-           MouseArea {
-               anchors.fill: parent
-               onClicked: {
-                   //console.log("Clicked on :"+ buttonTextId.text)
-                   mButtonId.buttonClicked();
-               }
-           }
-       }
+    //     //Set up the signal
+    //     signal greet(string messsage)
+    //     signal forward_greeting(string message)
 
 
-       Column {
-           spacing: 20
-           MButton {
-               buttonText: "Button3"
-               onButtonClicked: {
-                   console.log("Clicked on inlined component button3");
-               }
-           }
-           MButton {
-               buttonText: "Button4"
-               onButtonClicked: {
-                   console.log("clicked on inlined component button4");
-               }
-           }
-       }
+    //     //The final handler
+    //     function respond_your_way(message) {
+    //         console.log(" response: " + message);
+    //     }
 
+    //     MouseArea{
+    //         anchors.fill: parent
+    //         onClicked: {
+    //             //Fire the greet signal
+    //             rectId.greet("The sky is blue")
+    //         }
+    //     }
+
+
+    //     Component.onCompleted: {
+    //         //Connect signal to signal
+    //         rectId.greet.connect(rectId.forward_greeting)
+
+    //         //Connect to the final handler
+    //         rectId.forward_greeting.connect(rectId.respond_your_way)
+    //     }
+    // }
 }

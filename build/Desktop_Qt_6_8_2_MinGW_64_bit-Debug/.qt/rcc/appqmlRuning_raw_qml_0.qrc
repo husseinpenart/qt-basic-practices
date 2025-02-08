@@ -7,6 +7,8 @@
     <file alias="GroupProperties.qml">E:/project/qmlRuning/GroupProperties.qml</file>
     <file alias="images.qml">E:/project/qmlRuning/images.qml</file>
     <file alias="CButton.qml">E:/project/qmlRuning/CButton.qml</file>
+    <file alias="Notifier.qml">E:/project/qmlRuning/Notifier.qml</file>
+    <file alias="Receiver.qml">E:/project/qmlRuning/Receiver.qml</file>
     <file alias="resource.qrc">E:/project/qmlRuning/resource.qrc</file>
   </qresource>
 </RCC>

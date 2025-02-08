@@ -7,7 +7,16 @@
 	"CROSS_CONFIG" : false,
 	"GENERATOR" : "Ninja",
 	"INCLUDE_DIR" : "E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/appqmlRuning_autogen/include",
-	"INPUTS" : [ "E:/project/qmlRuning/images/cplus.jpg" ],
+	"INPUTS" : 
+	[
+		"E:/project/qmlRuning/images/cplus.jpg",
+		"E:/project/qmlRuning/signalslots/notifier.qml",
+		"E:/project/qmlRuning/signalslots/costumProperty.qml",
+		"E:/project/qmlRuning/signalslots/connection.qml",
+		"E:/project/qmlRuning/signalslots/notifier.qml",
+		"E:/project/qmlRuning/signalslots/signalAndComponent.qml",
+		"E:/project/qmlRuning/signalslots/reciever.qml"
+	],
 	"LOCK_FILE" : "E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/CMakeFiles/appqmlRuning_autogen.dir/AutoRcc_resource_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,
 	"OPTIONS" : [ "--no-zstd", "-name", "resource" ],

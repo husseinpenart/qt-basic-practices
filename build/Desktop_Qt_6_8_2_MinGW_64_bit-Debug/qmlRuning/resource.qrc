@@ -1,5 +1,11 @@
 <RCC>
     <qresource prefix="/">
         <file>images/cplus.jpg</file>
+        <file>signalslots/costumProperty.qml</file>
+        <file>signalslots/connection.qml</file>
+        <file>signalslots/signalAndComponent.qml</file>
+        <file>signalslots/notifier.qml</file>
+        <file>signalslots/reciever.qml</file>
+        <file>signalslots/Notifier.qml</file>
     </qresource>
 </RCC>

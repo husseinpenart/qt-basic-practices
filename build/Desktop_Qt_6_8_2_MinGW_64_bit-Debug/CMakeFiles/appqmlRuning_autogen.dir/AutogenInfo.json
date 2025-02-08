@@ -699,8 +699,7 @@
 		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
 		"C:/Program Files/CMake/share/cmake-3.31/Modules/GNUInstallDirs.cmake",
 		"C:/Qt/6.8.2/mingw_64/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in",
-		"E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.qt/qml_imports/appqmlRuning_conf.cmake",
-		"E:/project/qmlRuning/resource.qrc"
+		"E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.qt/qml_imports/appqmlRuning_conf.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "E:/project/qmlRuning",
 	"CROSS_CONFIG" : false,
@@ -793,8 +792,10 @@
 		"E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqmlRuning_ClassType_qml.cpp",
 		"E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqmlRuning_GroupProperties_qml.cpp",
 		"E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqmlRuning_Main_qml.cpp",
+		"E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqmlRuning_Notifier_qml.cpp",
 		"E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqmlRuning_PBCode_qml.cpp",
 		"E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqmlRuning_QtGlobal_qml.cpp",
+		"E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqmlRuning_Receiver_qml.cpp",
 		"E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqmlRuning_images_qml.cpp",
 		"E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqmlRuning_qmlcache_loader.cpp",
 		"E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/appqmlruning_qmltyperegistrations.cpp"
@@ -821,8 +822,10 @@
 		"E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqmlRuning_ClassType_qml.cpp",
 		"E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqmlRuning_GroupProperties_qml.cpp",
 		"E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqmlRuning_Main_qml.cpp",
+		"E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqmlRuning_Notifier_qml.cpp",
 		"E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqmlRuning_PBCode_qml.cpp",
 		"E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqmlRuning_QtGlobal_qml.cpp",
+		"E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqmlRuning_Receiver_qml.cpp",
 		"E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqmlRuning_images_qml.cpp",
 		"E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/.rcc/qmlcache/appqmlRuning_qmlcache_loader.cpp",
 		"E:/project/qmlRuning/build/Desktop_Qt_6_8_2_MinGW_64_bit-Debug/appqmlruning_qmltyperegistrations.cpp"
